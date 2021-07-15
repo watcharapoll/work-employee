@@ -1,0 +1,78 @@
+.view__main{
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(64,158,255,.1);
+}
+.view__name{
+    display:block;
+    width: 100%;
+    font-size:20px;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+
+.view__card{
+    width: 100%;
+    background: white;
+    border-radius:5px;
+    box-shadow: 2px 3px 5px rgb(142,142,142,.7),
+                -1px -1px 3px rgb(142,142,142,.7);
+    padding: 10px;
+    display: block;
+    padding: relative;
+    display: flex;
+    flex-direction:column;
+}
+
+.view__card__content{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+.view__card__index {
+    padding: 0px 5px;
+    color: #fff;
+    border-radius: 50%;
+    background: #67c25d;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+.view__card__name,
+.view__card__email {
+    display: block;
+    width: 30%;
+}
+.view__card__phone {
+    display: block;
+    width: 20%;
+}
+.view__card__action {
+    display: block;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view__card__action button {
+    padding:5px 10px;
+    margin: 5px 5px;
+}
+.view__card__action button:first-child {
+    background: green;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(142,142,142);
+}
+.view__card__action button:last-child {
+    background: red;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(142,142,142);
+}

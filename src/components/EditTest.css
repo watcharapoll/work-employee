@@ -1,0 +1,42 @@
+
+.edit__main{
+    height: calc(100vh - 150px);
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(64,158,255,.1);
+}
+
+.edit__head{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.edit__name,
+.edit__email,
+.edit__phone{
+    padding: 10px 0px;
+}
+.edit__name input,
+.edit__email input,
+.edit__phone input{
+    min-width:400px;
+    display: block;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(142,142,142);
+    border-radius: 25px;
+}
+
+.edit__submit button{
+    min-width:422px;
+    padding: 10px 0px;
+    border:none;
+    background:green;
+    color: #fff;
+    border-radius:25px;
+    margin-top: 40px;
+    box-shadow: 2px 3px 5px rgb(77,77,77,.6),
+                -1px -1px 5px rgb(77,77,77,.6);
+}

@@ -1,0 +1,32 @@
+.Navbar{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #106886;
+  height:50px;
+}
+
+.Navbar__left{
+  font-size:24px;
+  font-weight:700;
+  padding-left: 10px;
+  color: #fff;
+}
+.Navbar__right{
+}
+.Navbar__right ul{
+  list-style: none;
+  display: flex;
+}
+
+.Navbar__right ul li{
+  position: relative;
+  padding:5px 10px;
+}
+.Navbar__right ul li a{
+  font-size: 20px;
+  font-weight:700;
+  color: #fff;
+  text-decoration: none;
+}
