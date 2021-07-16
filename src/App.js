@@ -17,7 +17,7 @@ function App() {
                 <Link to="/" >สมัครสมาชิก</Link>
               </li>
               <li>
-                <Link to="/view">รายชื่อ</Link>
+                <Link to="/view">รายชื่อส</Link>
               </li>
             </ul>
           </div>

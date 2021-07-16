@@ -46,13 +46,13 @@ export default  function EditTest() {
         <div className="edit__main">
             <div className="edit__head">แก้ไขสมาชิก</div>
             <div className="edit__name">
-            <input type="text" placeholder="name" label="name" value={name} onChange={(e)=>setName(e.target.value)}></input>
+            <input type="text" placeholder="name" value={name} onChange={(e)=>setName(e.target.value)}></input>
             </div>
             <div className="edit__email">
-            <input type="email" placeholder="email" label="email" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
+            <input type="email" placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)}></input>
             </div>
             <div className="edit__phone">
-            <input type="tel" placeholder="phone" label="phone" value={phone} onChange={(e)=>setPhone(e.target.value)}></input>
+            <input type="tel" placeholder="phone" value={phone} onChange={(e)=>setPhone(e.target.value)}></input>
             </div>
             <div className="edit__submit">
             <button type="button" onClick={(e)=>submit(e)}>Update</button>
